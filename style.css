@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(181, 223, 252);
+}
+section {
+  text-align: center;
+}
+.game--container{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 300px;
+  margin: 50px auto;
+  background-color: rgb(197, 116, 11);
+}
+
+.cell {
+  font-family: cursive;
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 1px black;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 60px;
+}
+
+button{
+  width: 150;
+  height: 50;
+  font-size: 20;
+}
+
+
+
